@@ -58,7 +58,6 @@ ConfigWindow configWindow       = {
     .fullscreen = true,
     .exiting_fullscreen = false,
     .settings_changed = false,
-    .msaa = 0,
 #endif
 };
 
