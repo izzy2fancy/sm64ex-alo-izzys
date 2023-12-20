@@ -55,9 +55,10 @@ ConfigWindow configWindow       = {
     .h = DESIRED_SCREEN_HEIGHT,
     .vsync = false,
     .reset = false,
-    .fullscreen = false,
+    .fullscreen = true,
     .exiting_fullscreen = false,
     .settings_changed = false,
+    .msaa = 0,
 #endif
 };
 
